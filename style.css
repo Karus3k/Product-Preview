@@ -33,7 +33,7 @@ img {
     margin-right: 5px;
 }
 .container {
-    display: flex;
+    display: flex;    
     max-width: 500px;
     padding: 24px 12px;
 }
@@ -119,10 +119,6 @@ p {
         border-radius: 0px 0px 5px 5px;
         flex: 1;
         padding: 15px;
-    }
-    .root {
-        min-height: 100vh;
-        min-width: 100vw;
     }
 }
 
