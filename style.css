@@ -5,19 +5,13 @@
     --color-DarkGrayishBlue: hsl(228, 12%, 48%);
     --color-White: hsl(0, 0%, 100%);
 }
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-body {
-    align-items: center;
-    background-color: var(--color-White);
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    width: 100vw;
-    padding: 48px 24px;
 }
 .button {
     align-items: center;
@@ -46,11 +40,11 @@ img {
 .root {
     align-items: center;
     background-color: var(--color-Cream);
-    box-shadow: 0px 5px 35px -5px rgba(83, 77, 77, 0.388);
     display: flex;
+    height: 100vh;
     justify-content: center;
-    min-height: 90%;
-    min-width: 90%;
+    width: 100vw;
+    padding: 48px 24px; 
 }
 .picture {
     background-image: url("./images/image-product-desktop.jpg");
@@ -131,3 +125,19 @@ p {
         min-width: 100vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+} */
